@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/blevesearch/bleve/v2/search"
 	index "github.com/blevesearch/bleve_index_api"
+	"github.com/knights-analytics/indexer/search"
 )
 
 func NewMultiTermSearcher(ctx context.Context, indexReader index.IndexReader, terms []string,

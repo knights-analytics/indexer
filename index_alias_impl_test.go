@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/v2/document"
-	"github.com/blevesearch/bleve/v2/mapping"
-	"github.com/blevesearch/bleve/v2/numeric"
-	"github.com/blevesearch/bleve/v2/search"
 	index "github.com/blevesearch/bleve_index_api"
+	"github.com/knights-analytics/indexer/document"
+	"github.com/knights-analytics/indexer/mapping"
+	"github.com/knights-analytics/indexer/numeric"
+	"github.com/knights-analytics/indexer/search"
 )
 
 func TestIndexAliasSingle(t *testing.T) {

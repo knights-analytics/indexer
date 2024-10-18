@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/blevesearch/bleve/v2/mapping"
-	"github.com/blevesearch/bleve/v2/search"
-	"github.com/blevesearch/bleve/v2/search/searcher"
 	index "github.com/blevesearch/bleve_index_api"
+	"github.com/knights-analytics/indexer/mapping"
+	"github.com/knights-analytics/indexer/search"
+	"github.com/knights-analytics/indexer/search/searcher"
 )
 
 type IPRangeQuery struct {

@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"sync/atomic"
 
-	"github.com/blevesearch/bleve/v2/util"
+	"github.com/knights-analytics/indexer/util"
 )
 
 // Stats tracks statistics about the index, fields that are

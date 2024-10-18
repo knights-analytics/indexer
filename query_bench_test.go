@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/v2/analysis/analyzer/keyword"
-	"github.com/blevesearch/bleve/v2/mapping"
+	"github.com/knights-analytics/indexer/analysis/analyzer/keyword"
+	"github.com/knights-analytics/indexer/mapping"
 )
 
 func BenchmarkQueryTerm(b *testing.B) {

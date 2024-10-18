@@ -18,8 +18,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/blevesearch/bleve/v2"
-	"github.com/blevesearch/bleve/v2/mapping"
+	"github.com/knights-analytics/indexer"
+	"github.com/knights-analytics/indexer/mapping"
 )
 
 type doc struct {

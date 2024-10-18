@@ -15,11 +15,11 @@
 package it
 
 import (
-	"github.com/blevesearch/bleve/v2/analysis"
-	"github.com/blevesearch/bleve/v2/registry"
+	"github.com/knights-analytics/indexer/analysis"
+	"github.com/knights-analytics/indexer/registry"
 
-	"github.com/blevesearch/bleve/v2/analysis/token/lowercase"
-	"github.com/blevesearch/bleve/v2/analysis/tokenizer/unicode"
+	"github.com/knights-analytics/indexer/analysis/token/lowercase"
+	"github.com/knights-analytics/indexer/analysis/tokenizer/unicode"
 )
 
 const AnalyzerName = "it"

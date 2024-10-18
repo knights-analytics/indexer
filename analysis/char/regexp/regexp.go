@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/blevesearch/bleve/v2/analysis"
-	"github.com/blevesearch/bleve/v2/registry"
+	"github.com/knights-analytics/indexer/analysis"
+	"github.com/knights-analytics/indexer/registry"
 )
 
 const Name = "regexp"

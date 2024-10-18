@@ -20,12 +20,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/blevesearch/bleve/v2/analysis"
-	"github.com/blevesearch/bleve/v2/analysis/analyzer/keyword"
-	"github.com/blevesearch/bleve/v2/document"
-	"github.com/blevesearch/bleve/v2/geo"
-	"github.com/blevesearch/bleve/v2/util"
 	index "github.com/blevesearch/bleve_index_api"
+	"github.com/knights-analytics/indexer/analysis"
+	"github.com/knights-analytics/indexer/analysis/analyzer/keyword"
+	"github.com/knights-analytics/indexer/document"
+	"github.com/knights-analytics/indexer/geo"
+	"github.com/knights-analytics/indexer/util"
 )
 
 // control the default behavior for dynamic fields (those not explicitly mapped)

@@ -18,8 +18,8 @@ import (
 	"bytes"
 	"unicode"
 
-	"github.com/blevesearch/bleve/v2/analysis"
-	"github.com/blevesearch/bleve/v2/registry"
+	"github.com/knights-analytics/indexer/analysis"
+	"github.com/knights-analytics/indexer/registry"
 )
 
 const LightStemmerName = "stemmer_fr_light"
@@ -109,7 +109,7 @@ func stem(input []rune) []rune {
 		input[inputLen-4] = 'q'
 		input[inputLen-3] = 'u'
 		input[inputLen-2] = 'e'
-		//s[len-1] = 'r' <-- unnecessary, already 'r'.
+		// s[len-1] = 'r' <-- unnecessary, already 'r'.
 		return norm(input)
 	}
 

@@ -28,12 +28,12 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/blevesearch/bleve/v2"
-	"github.com/blevesearch/bleve/v2/index/scorch"
-	"github.com/blevesearch/bleve/v2/index/upsidedown"
-	"github.com/blevesearch/bleve/v2/index/upsidedown/store/boltdb"
-	"github.com/blevesearch/bleve/v2/mapping"
-	"github.com/blevesearch/bleve/v2/search"
+	"github.com/knights-analytics/indexer"
+	"github.com/knights-analytics/indexer/index/scorch"
+	"github.com/knights-analytics/indexer/index/upsidedown"
+	"github.com/knights-analytics/indexer/index/upsidedown/store/boltdb"
+	"github.com/knights-analytics/indexer/mapping"
+	"github.com/knights-analytics/indexer/search"
 )
 
 // Tests scorch indexer versus upsidedown/bolt indexer against various

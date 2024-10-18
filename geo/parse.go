@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/blevesearch/bleve/v2/util"
+	"github.com/knights-analytics/indexer/util"
 )
 
 // ExtractGeoPoint takes an arbitrary interface{} and tries it's best to

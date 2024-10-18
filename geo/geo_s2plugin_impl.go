@@ -18,10 +18,10 @@ import (
 	"encoding/json"
 	"sync"
 
-	"github.com/blevesearch/bleve/v2/util"
 	index "github.com/blevesearch/bleve_index_api"
 	"github.com/blevesearch/geo/geojson"
 	"github.com/blevesearch/geo/s2"
+	"github.com/knights-analytics/indexer/util"
 )
 
 const (
@@ -217,7 +217,7 @@ type s2TokenizableEx interface {
 	QueryTokens(*S2SpatialAnalyzerPlugin) []string
 }
 
-//----------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------
 
 func (p *Point) Type() string {
 	return PointType
@@ -246,7 +246,7 @@ func (p *Point) QueryTokens(s *S2SpatialAnalyzerPlugin) []string {
 	return nil
 }
 
-//----------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------
 
 type boundedRectangle struct {
 	minLat float64
@@ -293,7 +293,7 @@ func (br *boundedRectangle) QueryTokens(s *S2SpatialAnalyzerPlugin) []string {
 	return geojson.StripCoveringTerms(terms)
 }
 
-//----------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------
 
 type boundedPolygon struct {
 	coordinates []Point
@@ -341,7 +341,7 @@ func (bp *boundedPolygon) QueryTokens(s *S2SpatialAnalyzerPlugin) []string {
 	return geojson.StripCoveringTerms(terms)
 }
 
-//----------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------
 
 type pointDistance struct {
 	dist      float64

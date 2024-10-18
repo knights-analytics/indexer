@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/blevesearch/bleve/v2/document"
-	"github.com/blevesearch/bleve/v2/search"
-	"github.com/blevesearch/bleve/v2/search/collector"
-	"github.com/blevesearch/bleve/v2/search/query"
 	index "github.com/blevesearch/bleve_index_api"
+	"github.com/knights-analytics/indexer/document"
+	"github.com/knights-analytics/indexer/search"
+	"github.com/knights-analytics/indexer/search/collector"
+	"github.com/knights-analytics/indexer/search/query"
 )
 
 const supportForVectorSearch = true

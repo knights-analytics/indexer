@@ -25,9 +25,9 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/blevesearch/bleve/v2/geo"
-	"github.com/blevesearch/bleve/v2/numeric"
-	"github.com/blevesearch/bleve/v2/util"
+	"github.com/knights-analytics/indexer/geo"
+	"github.com/knights-analytics/indexer/numeric"
+	"github.com/knights-analytics/indexer/util"
 )
 
 var (

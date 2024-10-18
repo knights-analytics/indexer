@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/blevesearch/bleve/v2/geo"
-	"github.com/blevesearch/bleve/v2/numeric"
-	"github.com/blevesearch/bleve/v2/search"
 	index "github.com/blevesearch/bleve_index_api"
+	"github.com/knights-analytics/indexer/geo"
+	"github.com/knights-analytics/indexer/numeric"
+	"github.com/knights-analytics/indexer/search"
 )
 
 func NewGeoBoundedPolygonSearcher(ctx context.Context, indexReader index.IndexReader,

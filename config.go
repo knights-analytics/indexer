@@ -20,11 +20,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/blevesearch/bleve/v2/index/scorch"
-	"github.com/blevesearch/bleve/v2/index/upsidedown/store/gtreap"
-	"github.com/blevesearch/bleve/v2/registry"
-	"github.com/blevesearch/bleve/v2/search/highlight/highlighter/html"
 	index "github.com/blevesearch/bleve_index_api"
+	"github.com/knights-analytics/indexer/index/scorch"
+	"github.com/knights-analytics/indexer/index/upsidedown/store/gtreap"
+	"github.com/knights-analytics/indexer/registry"
+	"github.com/knights-analytics/indexer/search/highlight/highlighter/html"
 )
 
 var bleveExpVar = expvar.NewMap("bleve")

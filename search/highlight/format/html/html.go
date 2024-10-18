@@ -17,8 +17,8 @@ package html
 import (
 	"html"
 
-	"github.com/blevesearch/bleve/v2/registry"
-	"github.com/blevesearch/bleve/v2/search/highlight"
+	"github.com/knights-analytics/indexer/registry"
+	"github.com/knights-analytics/indexer/search/highlight"
 )
 
 const Name = "html"

@@ -18,8 +18,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/blevesearch/bleve/v2/analysis"
-	"github.com/blevesearch/bleve/v2/registry"
+	"github.com/knights-analytics/indexer/analysis"
+	"github.com/knights-analytics/indexer/registry"
 )
 
 // Name is the name used to register ReverseFilter in the bleve registry

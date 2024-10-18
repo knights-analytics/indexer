@@ -21,8 +21,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/blevesearch/bleve/v2/index/scorch"
-	"github.com/blevesearch/bleve/v2/search"
+	"github.com/knights-analytics/indexer/index/scorch"
+	"github.com/knights-analytics/indexer/search"
 )
 
 func TestTermRangeSearch(t *testing.T) {

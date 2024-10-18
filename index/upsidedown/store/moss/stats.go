@@ -15,8 +15,8 @@
 package moss
 
 import (
-	"github.com/blevesearch/bleve/v2/util"
 	store "github.com/blevesearch/upsidedown_store_api"
+	"github.com/knights-analytics/indexer/util"
 )
 
 type stats struct {

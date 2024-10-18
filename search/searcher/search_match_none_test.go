@@ -17,7 +17,7 @@ package searcher
 import (
 	"testing"
 
-	"github.com/blevesearch/bleve/v2/search"
+	"github.com/knights-analytics/indexer/search"
 )
 
 func TestMatchNoneSearch(t *testing.T) {

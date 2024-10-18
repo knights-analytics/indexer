@@ -25,10 +25,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/blevesearch/bleve/v2/registry"
-	"github.com/blevesearch/bleve/v2/util"
 	"github.com/blevesearch/go-metrics"
 	store "github.com/blevesearch/upsidedown_store_api"
+	"github.com/knights-analytics/indexer/registry"
+	"github.com/knights-analytics/indexer/util"
 )
 
 const Name = "metrics"

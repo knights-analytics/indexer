@@ -18,11 +18,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/blevesearch/bleve/v2/mapping"
-	"github.com/blevesearch/bleve/v2/search"
-	"github.com/blevesearch/bleve/v2/search/searcher"
-	"github.com/blevesearch/bleve/v2/util"
 	index "github.com/blevesearch/bleve_index_api"
+	"github.com/knights-analytics/indexer/mapping"
+	"github.com/knights-analytics/indexer/search"
+	"github.com/knights-analytics/indexer/search/searcher"
+	"github.com/knights-analytics/indexer/util"
 )
 
 type ConjunctionQuery struct {

@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"github.com/RoaringBitmap/roaring/v2"
-	"github.com/blevesearch/bleve/v2/index/scorch/mergeplan"
-	"github.com/blevesearch/bleve/v2/util"
 	segment "github.com/blevesearch/scorch_segment_api/v2"
+	"github.com/knights-analytics/indexer/index/scorch/mergeplan"
+	"github.com/knights-analytics/indexer/util"
 )
 
 func (s *Scorch) mergerLoop() {

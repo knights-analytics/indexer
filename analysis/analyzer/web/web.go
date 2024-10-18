@@ -15,11 +15,11 @@
 package web
 
 import (
-	"github.com/blevesearch/bleve/v2/analysis"
-	"github.com/blevesearch/bleve/v2/analysis/lang/en"
-	"github.com/blevesearch/bleve/v2/analysis/token/lowercase"
-	"github.com/blevesearch/bleve/v2/analysis/tokenizer/web"
-	"github.com/blevesearch/bleve/v2/registry"
+	"github.com/knights-analytics/indexer/analysis"
+	"github.com/knights-analytics/indexer/analysis/lang/en"
+	"github.com/knights-analytics/indexer/analysis/token/lowercase"
+	"github.com/knights-analytics/indexer/analysis/tokenizer/web"
+	"github.com/knights-analytics/indexer/registry"
 )
 
 const Name = "web"

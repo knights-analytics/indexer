@@ -17,11 +17,11 @@ package ansi
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/v2/registry"
-	"github.com/blevesearch/bleve/v2/search/highlight"
-	ansiFormatter "github.com/blevesearch/bleve/v2/search/highlight/format/ansi"
-	simpleFragmenter "github.com/blevesearch/bleve/v2/search/highlight/fragmenter/simple"
-	simpleHighlighter "github.com/blevesearch/bleve/v2/search/highlight/highlighter/simple"
+	"github.com/knights-analytics/indexer/registry"
+	"github.com/knights-analytics/indexer/search/highlight"
+	ansiFormatter "github.com/knights-analytics/indexer/search/highlight/format/ansi"
+	simpleFragmenter "github.com/knights-analytics/indexer/search/highlight/fragmenter/simple"
+	simpleHighlighter "github.com/knights-analytics/indexer/search/highlight/highlighter/simple"
 )
 
 const Name = "ansi"

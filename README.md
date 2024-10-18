@@ -2,10 +2,10 @@
 
 [![Tests](https://github.com/blevesearch/bleve/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/blevesearch/bleve/actions/workflows/tests.yml?query=event%3Apush+branch%3Amaster)
 [![Coverage Status](https://coveralls.io/repos/github/blevesearch/bleve/badge.svg?branch=master)](https://coveralls.io/github/blevesearch/bleve?branch=master)
-[![Go Reference](https://pkg.go.dev/badge/github.com/blevesearch/bleve/v2.svg)](https://pkg.go.dev/github.com/blevesearch/bleve/v2)
+[![Go Reference](https://pkg.go.dev/badge/github.com/knights-analytics/indexer.svg)](https://pkg.go.dev/github.com/knights-analytics/indexer)
 [![Join the chat](https://badges.gitter.im/join_chat.svg)](https://app.gitter.im/#/room/#blevesearch_bleve:gitter.im)
 [![codebeat](https://codebeat.co/badges/38a7cbc9-9cf5-41c0-a315-0746178230f4)](https://codebeat.co/projects/github-com-blevesearch-bleve)
-[![Go Report Card](https://goreportcard.com/badge/github.com/blevesearch/bleve/v2)](https://goreportcard.com/report/github.com/blevesearch/bleve/v2)
+[![Go Report Card](https://goreportcard.com/badge/github.com/knights-analytics/indexer)](https://goreportcard.com/report/github.com/knights-analytics/indexer)
 [![Sourcegraph](https://sourcegraph.com/github.com/blevesearch/bleve/-/badge.svg)](https://sourcegraph.com/github.com/blevesearch/bleve?badge)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -69,7 +69,7 @@ searchResult, _ := index.Search(searchRequest)
 To install the CLI for the latest release of bleve, run:
 
 ```bash
-go install github.com/blevesearch/bleve/v2/cmd/bleve@latest
+$ go install github.com/knights-analytics/indexer/cmd/bleve@latest
 ```
 
 ```text

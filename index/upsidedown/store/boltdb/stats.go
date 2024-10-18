@@ -15,7 +15,7 @@
 package boltdb
 
 import (
-	"github.com/blevesearch/bleve/v2/util"
+	"github.com/knights-analytics/indexer/util"
 )
 
 type stats struct {

@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/v2/analysis"
+	"github.com/knights-analytics/indexer/analysis"
 )
 
 func TestUniqueTermFilter(t *testing.T) {

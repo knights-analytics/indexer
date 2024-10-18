@@ -17,7 +17,7 @@ package registry
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/v2/analysis"
+	"github.com/knights-analytics/indexer/analysis"
 )
 
 func RegisterCharFilter(name string, constructor CharFilterConstructor) error {

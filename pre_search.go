@@ -15,7 +15,7 @@
 package bleve
 
 import (
-	"github.com/blevesearch/bleve/v2/search"
+	"github.com/knights-analytics/indexer/search"
 )
 
 // A preSearchResultProcessor processes the data in

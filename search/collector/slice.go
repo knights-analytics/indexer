@@ -15,7 +15,7 @@
 package collector
 
 import (
-	"github.com/blevesearch/bleve/v2/search"
+	"github.com/knights-analytics/indexer/search"
 )
 
 type collectStoreSlice struct {

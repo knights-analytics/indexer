@@ -17,11 +17,11 @@ package bleve
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/v2/document"
-	"github.com/blevesearch/bleve/v2/index/scorch"
-	"github.com/blevesearch/bleve/v2/mapping"
-	"github.com/blevesearch/bleve/v2/util"
 	index "github.com/blevesearch/bleve_index_api"
+	"github.com/knights-analytics/indexer/document"
+	"github.com/knights-analytics/indexer/index/scorch"
+	"github.com/knights-analytics/indexer/mapping"
+	"github.com/knights-analytics/indexer/util"
 )
 
 type builderImpl struct {

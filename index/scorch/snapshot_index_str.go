@@ -17,8 +17,8 @@ package scorch
 import (
 	"reflect"
 
-	"github.com/blevesearch/bleve/v2/size"
 	segment "github.com/blevesearch/scorch_segment_api/v2"
+	"github.com/knights-analytics/indexer/size"
 )
 
 var reflectStaticSizeIndexSnapshotThesaurusTermReader int
